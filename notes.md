@@ -1,0 +1,2 @@
+- Datamaps requires d3 v3, whereas v5 is the latest version
+- Gatsby does not recognize "folder components", hence the import HomepageMap/index statement
