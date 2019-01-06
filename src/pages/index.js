@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import d3 from 'd3';
-import Datamap from 'datamaps';
 
 import Layout from '../components/layout';
 import Image from '../components/image';

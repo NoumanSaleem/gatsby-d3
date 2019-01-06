@@ -1,5 +1,4 @@
 import React from 'react';
-import Datamap from 'datamaps';
 import './styles.css';
 
 export default class extends React.Component {
@@ -8,6 +7,7 @@ export default class extends React.Component {
     this.mapRef = React.createRef();
   }
   componentDidMount() {
+    const Datamap = require('datamaps');
     new Datamap({
       element: this.mapRef.current,
       scope: 'usa'
